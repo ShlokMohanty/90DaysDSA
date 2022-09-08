@@ -1,0 +1,22 @@
+list : sequence container 
+takes o(1) time for inserting and deleting operations 
+elements cannot be directly accessed
+iteration is needed for accessing the element 
+list<int> l1;
+list<int> l1(5,100) // l1 will have 5 int elements of value 100 
+member functions of list :
+1) begin() : pointing first element in the list 
+2) end() : theoretical element (doesnt point to an element) which follows the last element 
+3) empty() : returns if the list is empty or not.
+4) back() : returns reference to the last element 
+5) assign() : assigns new element to the list by replacing its current elements and changes its size accordingly 
+6) erase() : removes a single or  a range of element from the list.
+7) front() : reference to the first element in the list 
+8) push_back() : adds a new element at the end of the list 
+9) push_front() : add a new element at the begining of the list 
+10) remove() : removes all elements from the list 
+11) pop_back() : removes last element of the list 
+12) pop_front() : removes the first element of the list 
+13) insert() : inserts element before the specified position 
+14) reverse() :  reverses the order of the list 
+15) size() :  returns the number of the elements in the list 
